@@ -1,0 +1,42 @@
+body {
+     background-image: url('background/purple.jpg');
+      margin: 0; /* Remove margens padrão */
+    padding: 0;
+  }
+  .d20bg {
+     background-color: transparent; 
+    /* Remove a borda padrão do botão */
+    border: none; 
+    /* Garante que o cursor mude para indicar que é clicável */
+    cursor: pointer; 
+    /* Remove o padding padrão do botão para que a imagem ocupe todo o espaço */
+    padding: 0;
+   border-radius: 14px;
+  }
+  
+.titulo {
+    font-size: 50px;
+    text-align: center;
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(223, 63, 255);
+}
+
+.container-botoes {
+  background-image: url('dadosfotos/d4.png');
+  background-image: url('dadosfotos/d6.png');
+  background-image: url('dadosfotos/d8.png');
+  background-image: url('dadosfotos/d12.webp');
+  background-image: url('dadosfotos/d20.png');
+  background-image: url('dadosfotos/d100.png');
+  background-size: cover;
+  /* ... outras propriedades */
+  background-image: none; /* Remove o fundo */
+    color: rgb(255, 255, 255);
+    text-align: end;
+    display: flex; /* Coloca os itens em linha */
+    align-items: center; /* Alinha verticalmente ao centro (opcional) */
+   width: 42%; /* Largura definida é crucial */
+   height: 50vh;
+    margin: 0 auto; /* 0 para cima/baixo, auto para laterais */
+  
+}
